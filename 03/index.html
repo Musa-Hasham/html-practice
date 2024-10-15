@@ -94,25 +94,25 @@
             <div class="counter">
                 <div class="container">
                     <div class="number clearfix">
-                        <div class="number-content first-border">
-                            <h4>42</h4>
+                        <div class="counter-section first-border" id="counter-section"first-border">
+                            <h4 id="counter1">42</h4>
                             <p>WEB DESIGN PROJECTS</p>
                         </div>
-                        <div class="number-content">
-                            <h4>123</h4>
+                        <div class="counter-section" id="counter-section">
+                            <h4 id="counter2">123</h4>
                             <p>HAPPY CLIENT
                             </p>
                         </div>
-                        <div class="number-content">
-                            <h4>15</h4>
+                        <div class="counter-section" id="counter-section">
+                            <h4 id="counter3">15</h4>
                             <p>AWARD WINNER</p>
                         </div>
-                        <div class="number-content">
-                            <h4>99</h4>
+                        <div class="counter-section" id="counter-section">
+                            <h4 id="counter4">99</h4>
                             <p>CUP OF COFFEE</p>
                         </div>
-                        <div class="number-content">
-                            <h4>24</h4>
+                        <div class="counter-section" id="counter-section">
+                            <h4 id="counter5">24</h4>
                             <p>MEMBERS</p>
                         </div>
                     </div>
@@ -131,15 +131,15 @@
                     <div class="service-info">
                         <div class="info-img"> <img src="images/alaram.jpg" alt="">
                         </div>
-                        <h5>PHOTOGRAPHY</h5>
                         <div>
+                            <h5>PHOTOGRAPHY</h5>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptatum doloribus.
                             </p>
                         </div>
                     </div>
                     <div class="service-info">
                         <div class="info-img"> <img src="images/web.jpg" alt=""></div>
-                        <div>
+                        <div >
                             <h5>WEB DESIGN</h5>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptatum doloribus.
                             </p>
@@ -182,7 +182,7 @@
                 </div>
             </div>
         </section>
-        <section class="background-img">
+        <section class="background-img m2">
             <div class="container">
                 <div class="title-content relative">
                     <h3>We work with</h3>
@@ -210,26 +210,26 @@
                     <img src="images/man.jpg" alt="">
                 </div>
                 <div class="accordation">
-                    <button class="accordion" onclick="hidePanels()">PHOTOGRAPHY</button>
-                    <div class="panel">
+                    <button class="accordion" onclick="togglePanel(this)">PHOTOGRAPHY</button>
+                    <div class="panel" style="display: block;">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-
-                    <button class="accordion" onclick="hidePanels()">CREATIVITY</button>
-                    <div class="panel">
+                
+                    <button class="accordion" onclick="togglePanel(this)">CREATIVITY</button>
+                    <div class="panel" style="display: none;">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-
-                    <button class="accordion" onclick="hidePanels()">WEB DESIGN</button>
-                    <div class="panel">
+                
+                    <button class="accordion" onclick="togglePanel(this)">WEB DESIGN</button>
+                    <div class="panel" style="display: none;">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -237,6 +237,7 @@
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
+                
             </div>
             <section>
                 <div class="container">
@@ -522,9 +523,8 @@
                             </div>
                         </div>
                     </div>
-
             </section>
-            <section class="slider-section">
+            <section>
                 <div class="container">
                     <div class="clearfix">
                         <div class="slider">
@@ -544,7 +544,7 @@
                                 </div>
                                 <div class="slide">
                                     <div class="slider-img">
-                                        <img src="images/slider1.png" alt="">
+                                        <img src="images/sliderman.png" alt="">
                                     </div>
                                     <div class="slider-content">
                                         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -558,7 +558,91 @@
                                 </div>
                                 <div class="slide">
                                     <div class="slider-img">
-                                        <img src="images/slider1.png" alt="">
+                                        <img src="images/sliderman.png" alt="">
+                                    </div>
+                                    <div class="slider-content">
+                                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation.”
+
+                                            ”</p>
+                                        <h6>Jon Doe</h6>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slider-img">
+                                        <img src="images/sliderman.png" alt="">
+                                    </div>
+                                    <div class="slider-content">
+                                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation.”
+
+                                            ”</p>
+                                        <h6>Jon Doe</h6>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slider-img">
+                                        <img src="images/sliderman.png" alt="">
+                                    </div>
+                                    <div class="slider-content">
+                                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation.”
+
+                                            ”</p>
+                                        <h6>Jon Doe</h6>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slider-img">
+                                        <img src="images/sliderman.png" alt="">
+                                    </div>
+                                    <div class="slider-content">
+                                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation.”
+
+                                            ”</p>
+                                        <h6>Jon Doe</h6>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slider-img">
+                                        <img src="images/sliderman.png" alt="">
+                                    </div>
+                                    <div class="slider-content">
+                                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation.”
+
+                                            ”</p>
+                                        <h6>Jon Doe</h6>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slider-img">
+                                        <img src="images/sliderman.png" alt="">
+                                    </div>
+                                    <div class="slider-content">
+                                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation.”
+
+                                            ”</p>
+                                        <h6>Jon Doe</h6>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slider-img">
+                                        <img src="images/sliderman.png" alt="">
                                     </div>
                                     <div class="slider-content">
                                         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -571,7 +655,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="slider-button left" onclick="moveSlide(-1)">&#10094;</button>
+                            <button class="slider-button left" onclick="moveSlide(1)">&#10094;</button>
                             <button class="slider-button right" onclick="moveSlide(1)">&#10095;</button>
                         </div>
 
@@ -833,34 +917,20 @@
             }
         });
     });
-    var acc = document.getElementsByClassName("accordion");
-    var i;
+    function togglePanel(button) {
+    const panel = button.nextElementSibling;
+    const panels = document.querySelectorAll('.panel');
 
-    function hidePanels() {
-        let panel = document.getElementsByClassName("panel");
-        for (let index = 0; index < panel.length; index++) {
-            const element = panel[index];
-
-            element.style.display = 'none';
-
+    // Close all panels
+    panels.forEach(p => {
+        if (p !== panel) {
+            p.style.display = 'none';
         }
-    }
+    });
 
-    //document.getElementsByClassName("panel").style.display = 'none';
-    for (i = 0; i < acc.length; i++) {
-
-
-        acc[i].addEventListener("click", function () {
-
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-                panel.style.display = "none";
-            } else {
-                panel.style.display = "block";
-            }
-        });
-    }
+    // Toggle the clicked panel
+    panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+}
 
     // slider-content
     let currentIndex = 0;
@@ -904,6 +974,37 @@
         });
     }
     //openMap();
+
+    let hasCounted = false;
+const counters = [
+    { element: document.getElementById('counter1'), target: 42, duration: 2000 },
+    { element: document.getElementById('counter2'), target: 123, duration: 2000 },
+    { element: document.getElementById('counter3'), target: 15, duration: 2000 },
+    { element: document.getElementById('counter4'), target: 99, duration: 2000 },
+    { element: document.getElementById('counter5'), target: 24, duration: 2000 },
+];
+
+function countUp(counter) {
+    let start = 0;
+    const increment = counter.target / (counter.duration / 100);
+    const interval = setInterval(() => {
+        start += increment;
+        if (start >= counter.target) {
+            clearInterval(interval);
+            start = counter.target; // Ensure it ends at the target
+        }
+        counter.element.textContent = Math.floor(start);
+    }, 100);
+}
+
+window.addEventListener('scroll', () => {
+    const rect = document.getElementById('counter-section').getBoundingClientRect();
+    if (!hasCounted && rect.top <= window.innerHeight && rect.bottom >= 0) {
+        hasCounted = true;
+        counters.forEach(countUp);
+    }
+});
+
 </script>
 
 </html>
