@@ -9,9 +9,9 @@ body {
     font-weight: 400;
 }
 
-html{
+html {
     scroll-behavior: smooth;
-  }
+}
 
 .container {
     width: 1172px;
@@ -73,7 +73,7 @@ nav ul li a {
     color: white;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #f0c988;
 }
 
@@ -99,7 +99,7 @@ nav ul li a:hover{
     font-style: normal;
     color: #ffffff;
     font-size: 72px;
-    padding-top: 230px;
+    padding-top: 190px;
 }
 
 .banner-content {
@@ -120,7 +120,7 @@ nav ul li a:hover{
 }
 
 .banner-content h1 {
-    padding: 64px 0;
+    padding: 35px 0;
     font-size: 150px;
     color: white;
 }
@@ -229,7 +229,7 @@ nav ul li a:hover{
     background-color: #95e1d3;
 }
 
-.number-content {
+.counter-section {
     width: 20%;
     float: left;
     padding: 75px 0;
@@ -244,14 +244,14 @@ nav ul li a:hover{
     background-color: #95e1d3;
 }
 
-.number-content p {
+.counter-section p {
     font-size: 14px;
     color: #ffffff;
     padding: 20px 0 0;
     text-align: center;
 }
 
-.number-content h4 {
+.counter-section h4 {
     color: #ffffff;
     font-size: 72px;
     text-align: center;
@@ -501,7 +501,6 @@ nav ul li a:hover{
     line-height: 35px;
     padding-bottom: 32px;
     width: 90%;
-    margin: 0 0 0 50px;
 }
 
 .slider-content h6 {
@@ -517,11 +516,7 @@ nav ul li a:hover{
 }
 
 .slider-img {
-    width: 57%;
-}
-
-.slider-img img {
-    width: 100%;
+    margin: 27px 0 0 65px;
 }
 
 .slider-content h6::after {
@@ -547,11 +542,14 @@ nav ul li a:hover{
 
 .slider-button.left {
     left: 10px;
-    background-color: #e4e8ec;
+    color: #B3B3B3;
+    font-size: 18px;
 }
 
 .slider-button.right {
     right: 10px;
+    color: #B3B3B3;
+    font-size: 18px;
 }
 
 /* we-do-section */
@@ -677,7 +675,7 @@ nav ul li a:hover{
     font-weight: 400;
 }
 
-.blog-img{
+.blog-img {
     position: relative;
 }
 
@@ -761,7 +759,7 @@ nav ul li a:hover{
     font-size: 20px;
 }
 
-.contact-icons div i:hover{
+.contact-icons div i:hover {
     color: #f38181;
     transition: 0.7s;
 }
@@ -793,14 +791,14 @@ nav ul li a:hover{
     font-size: 18px;
 }
 
-.instagram{
+.instagram {
     margin: 120px 0 0 0;
 }
 
 .first-div {
     width: 30.33%;
     float: left;
-    margin: 0 35px 0 0;
+    margin: 0px 55px 0 0
 }
 
 .first-div button {
@@ -813,7 +811,7 @@ nav ul li a:hover{
 }
 
 
-.first-div button:hover{
+.first-div button:hover {
     color: #95e1d3;
     background-color: #ffffff;
     border: 1px solid #95e1d3;
@@ -822,7 +820,7 @@ nav ul li a:hover{
 
 .first-div input {
     outline: none;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
 }
 
 .first-div input:focus {
@@ -841,7 +839,7 @@ nav ul li a:hover{
 .second-div {
     width: 30.33%;
     float: left;
-    margin: 0 25px 0 0;
+    margin: 0 50px 0 0;
 }
 
 .second-div h6 {
@@ -923,4 +921,133 @@ footer p {
     font-weight: 300;
     font-size: 16px;
     border-top: 1px solid #B3B3B3;
+}
+
+@media only screen and (max-width: 992px) {
+    .banner-content {
+        min-width: 1200px;
+    }
+
+    .logo a {
+        padding: 11.2px 50px;
+    }
+
+    nav ul li a {
+        font-size: 19px;
+    }
+
+    .img-content {
+        margin: 0px 20px;
+    }
+
+    .info-img {
+        margin: 0 0px -36px -13px;
+    }
+
+    .service-info {
+        width: 31.33%;
+        margin: 0px 0 0 24px;
+    }
+
+    .slider {
+        margin: 0px 0 0px 0;
+    }
+
+    .client-content div {
+        padding: 24px 5px 25px 36px;
+    }
+
+    .client-inner-2 h5:after {
+        left: 134px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    .first-div h4 {
+        font-size: 20px;
+    }
+
+    .first-div p {
+        font-size: 15px;
+    }
+
+    .contact-icons h5 {
+        padding: 0 257px 0 0;
+    }
+
+    .contact-icons div i {
+        margin: 20px 7px 0;
+        font-size: 30px;
+    }
+
+    .second-div h6,
+    .third-div h6 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    #home-section,
+    .number,
+    .service-content,
+    .m2,
+    #we-do-section {
+        min-width: 1200px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    .title-content h2 {
+        font-size: 40px;
+    }
+
+    .title-content h3 {
+        font-size: 35px;
+    }    
+
+    .title-content p {
+        font-size: 22px;
+        padding: 29px 29px 75px;
+    }
+
+    .accordion {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 34px 23px;
+    }
+
+    .img-inner-headings p {
+        font-size: 20px;
+    }
+
+    .img-inner-headings h5 {
+        font-size: 20px;
+    }
+
+    .client-inner-2 h5:after {
+        top: -76px;
+    }
+
+    .client-inner-2 h5 {
+        font-size: 17px;
+    }
+
+    .client-inner-2 h6 {
+        font-size: 20px;
+    }
+
+    .man-img{
+        display: none;
+    }
+
+    .accordation {
+        width: 100%;
+    }
+
+    .panel p {
+        font-size: 20px;
+    }
 }
