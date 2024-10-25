@@ -1,0 +1,29 @@
+media query at start from 768
+
+mogo font size
+nav bar diplsay none
+banner height
+about sectionimg {flex wrap }
+counetr section { flex wrap }
+service section { flexwrap }
+top , bottom margin 
+accordian width 70 & set and adjust the fon size that can  be understand able
+slider width {-} and change the font size 
+team section flex wrap 
+brand logos width 
+work section flex wrap 
+2nd accordian ko 1 jesa or top bottom sa margin
+service section and blog section apply flex wrap
+map text font size 
+footer flex wrap , change the font size	
+
+
+media quirey(375px)
+
+banner content hover{fix}
+
+counter{verticle}
+
+footer second div{set}
+
+section{top/bottom padding}
